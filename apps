@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masked's Game Hub 2.0 - Apps</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../play">Play</a>
+      <a href="#">Apps</a>
+      <a href="../../settings">Settings</a>
+    </nav>
+  </body>
+</html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars due to image overflow */
+}
+
+.top-left-image {
+  position: fixed; /* Positioning type that stays fixed while scrolling */
+  top: 0; /* Distance from the top of the viewport */
+  left: 0; /* Distance from the left of the viewport */
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+/* Adjust other styles as needed */
+</style>
+</head>
+<body>
+
+<img src="./icons/logo2.png" alt="Top Left Image" class="top-left-image">
+
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style for the container */
+        .button-container {
+@@ -89,7 +85,6 @@
+            border-color: #333;
+        }
+    </style>
+    <title>Image Button with Title and Description</title>
+</head>
+<body>
+
